@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import Props from './props';
+import { useAppContext } from '../contexto/AppContext';
 export default function Home() {
+const { nombre } = useAppContext();
 
   return (
     <div>
