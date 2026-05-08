@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Props from './props';
 export default function Home() {
 
   return (
@@ -6,6 +7,8 @@ export default function Home() {
         <Link href="/">Botón Home</Link>
         <Link href="/uno">Botón Uno</Link>
         <Link href="/dos">Botón Dos</Link>
+
+        <Props nombre='soy el gatomeowmiaugod' />
 
     </div>
   );

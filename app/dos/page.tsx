@@ -1,8 +1,12 @@
+import Hijo from './hijo'
+
 export default function Home() {
 
   return (
     <div>
-        dos
+        <Hijo>
+            dos
+        </Hijo>
     </div>
   );
 }
